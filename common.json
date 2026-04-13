@@ -2,13 +2,6 @@
     "solver": {
         "linear": {
             "solver": "Eigen::SimplicialLDLT"
-        },
-        "advanced": {
-            "characteristic_force_density": 1,
-            "characteristic_length": 1
-        },
-        "nonlinear": {
-            "norm_type": "Euclidean"
         }
     },
     "output": {
